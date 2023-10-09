@@ -1,0 +1,113 @@
+.navbar{
+    position: fixed; 
+    width: 100%; 
+    top: 0px;
+}
+.parallelogram{
+    width: 200px; 
+    height: 100px; 
+    background: orange;
+    transform: skew(20deg); 
+    -webkit-transform: skew(20deg);
+}
+.fixed2{
+    height: 8000px; 
+    width: 200px; 
+    border: 1px solid black; 
+    position: fixed;
+    top: 70px;
+}
+.fixed3{
+    position: relative;
+    z-index: -10;
+}
+.btn{
+    border-radius: 0px;
+}
+.btn:hover{
+    color: rgb(28, 192, 221);
+}
+a{
+    text-decoration: none;
+    text-align: left;
+    margin-right: 15px;
+    display: block; 
+    color: black;
+}
+a:hover{
+    color: rgb(28, 192, 221);
+}
+.span{  
+    display: inline; 
+    color: black;
+    cursor: pointer;
+}
+.span:hover{
+    color: rgb(28, 192, 221);
+}
+hr{
+    border: 1px solid blue;
+    z-index: -10;
+    position: relative;
+}
+
+.containerr{
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    background-color: white;
+}
+.contentt{
+    display: none;
+    position: absolute;
+    padding: 0px;
+    min-width: 230%;
+    box-shadow: 0px 0px 1px 0px black;
+    z-index: 1000;
+    background-color: white;
+}
+.containerr:hover .contentt{
+    display: inline;
+    margin-left: 17px;
+    z-index: 1000;
+    background-color: white;
+}
+.cardd{
+    border-radius: 0px;
+    margin: 0px;
+    padding: 20px;
+    height: 100%;
+    z-index: 0;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.cardd-body{
+    padding: 20px;
+}
+.cardd-title {
+    font-size: 1.5em;
+}
+.cardd-text{
+    background-color: white;
+    border-bottom: 3px solid rgb(234, 16, 16);
+    border-width: 0px;
+}
+.cardd:hover{
+    box-sizing: border-box;
+    box-shadow: -0px 10px 15px rgb(120, 113, 113);
+    transition: .3s;
+}
+h2{
+    background-image: linear-gradient(-80deg, rgb(240, 240, 107), rgb(223, 101, 101), rgb(249, 110, 237));
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 10s;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    text-shadow: 5px 3px rgb(201, 177, 177);
+}
+p{
+    font-size: larger;
+    color: black;
+}
